@@ -1,4 +1,4 @@
-package com.minascafe.recipes;
+package com.minascafe.recipes.base;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.minascafe.recipes;
+package com.minascafe.recipes.base;
 
 class IngredientAmountCalculatorFactory {
 
