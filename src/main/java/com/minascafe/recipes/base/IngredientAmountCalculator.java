@@ -2,7 +2,6 @@ package com.minascafe.recipes.base;
 
 class IngredientAmountCalculator {
 
-
     private final Ingredient water;
 
     IngredientAmountCalculator(Ingredient water) {
