@@ -2,12 +2,12 @@ package com.minascafe.recipes.base;
 
 import java.util.Objects;
 
-class Ingredient {
+public class Ingredient {
 
     private final String name;
     private final Fraction amount;
 
-    Ingredient(String name, Fraction amount) {
+    public Ingredient(String name, Fraction amount) {
         this.name = name;
         this.amount = amount;
     }

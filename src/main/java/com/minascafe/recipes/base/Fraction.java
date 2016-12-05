@@ -5,7 +5,7 @@ import java.util.Objects;
 import static java.lang.Integer.parseInt;
 import static java.lang.String.format;
 
-class Fraction {
+public class Fraction {
 
     private final int nominator;
     private final int denominator;
@@ -16,7 +16,7 @@ class Fraction {
         this.denominator = denominator / mdc;
     }
 
-    Fraction(String fraction) {
+    public Fraction(String fraction) {
         this(parseInt(fraction.split("/")[0]), parseInt(fraction.split("/")[1]));
     }
 
