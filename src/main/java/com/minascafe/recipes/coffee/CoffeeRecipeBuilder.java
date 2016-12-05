@@ -11,7 +11,7 @@ class CoffeeRecipeBuilder {
     private Set<Ingredient> ingredients;
     private int cups;
 
-    public CoffeeRecipeBuilder() {
+    CoffeeRecipeBuilder() {
         this.ingredients = new HashSet<>();
     }
 
